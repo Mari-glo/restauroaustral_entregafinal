@@ -1,0 +1,18 @@
+/*section 1 */
+.imageninicio {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-image: url(../img/s2.jpg);
+    background-size: cover;
+
+    .__titulo {
+        font-size: 24px;
+        color: #CB997E;
+        background-color: rgba(0, 0, 0, 0.404);
+        padding: 20px;
+        border-radius: 5px;
+
+    }
+}

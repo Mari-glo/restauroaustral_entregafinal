@@ -1,0 +1,17 @@
+.imagenPublicaciones {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-image: url(../img/s1.jpg);
+    background-size: cover;
+
+    .imagenPublicaciones__titulo {
+        font-size: 24px;
+        color: #e4c0ad;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 15px;
+        border-radius: 5px;
+
+    }
+}

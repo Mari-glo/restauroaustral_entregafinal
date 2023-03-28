@@ -1,0 +1,87 @@
+/*section 2 */
+
+.contenidoInicio {
+    padding: 40px;
+
+    .__titulo {
+        text-align: center;
+        margin-bottom: 40px;
+
+    }
+}
+
+
+.tarjetas {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+    .tarjeta {
+        background-color: #CB997E;
+        width: 100%;
+        height: 300px;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        background-size: cover;
+        transition: 1s;
+
+        &:hover {
+            transform: translateY(10px)
+        }
+
+        &.tarjeta--coleccion {
+            background-image: url(../img/in_1.jpg);
+        }
+
+        &.tarjeta--lectura {
+            background-image: url(../img/in_2.jpg);
+
+        }
+
+        &.tarjeta--ideas {
+            background-image: url(../img/in_4.jpg);
+        }
+
+        &.tarjeta--premios {
+            background-image: url(../img/premios_1.jpg);
+        }
+
+        &.tarjeta--revistas {
+            background-image: url(../img/revista_1.jpg);
+        }
+
+        &.tarjeta--medios {
+            background-image: url(../img/medios_1.jpg);
+        }
+
+        &.tarjeta--restauracion {
+            background-image: url(../img/diagnostico_1.jpg);
+        }
+
+        &.tarjeta--diagnostico {
+            background-image: url(../img/restauracion_1.jpg);
+        }
+
+        &.tarjeta--supervision {
+            background-image: url(../img/supervision_1.jpg);
+        }
+
+        h4 {
+            background-color: #FFE8D6;
+            text-decoration: none;
+            color: #6B705C;
+            padding: 10px 20px;
+            border-radius: 5px;
+
+            &:hover {
+                color: #CB997E;
+
+            }
+
+        }
+    }
+
+
+}

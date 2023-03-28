@@ -1,0 +1,17 @@
+.imagenQuienes {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-image: url(../img/s3.jpg);
+    background-size: cover;
+
+    .imagenQuienes__titulo {
+        font-size: 24px;
+        color: #CB997E;
+        background-color: rgba(0, 0, 0, 0.404);
+        padding: 20px;
+        border-radius: 5px;
+
+    }
+}

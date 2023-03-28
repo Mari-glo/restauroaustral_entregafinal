@@ -1,0 +1,28 @@
+.portadaInicio {
+    height: 60vh;
+    background-image: url(../img/s2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.finInicio {
+    height: 60vh;
+    background-image: url(../img/s1.jpg);
+    color: #FFE8D6;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav-link:hover {
+    background-color: #FFE8D6;
+
+}
+
+.btn {
+    background-color: #FFE8D6;
+    color: #303030;
+}
+
+.container {
+    background: radial-gradient(circle, rgba(203, 153, 126, 0.9136029411764706) 6%, rgba(255, 232, 214, 0.8715861344537815) 63%, rgba(255, 232, 214, 0) 99%);
+}

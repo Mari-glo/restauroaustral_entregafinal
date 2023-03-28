@@ -1,0 +1,17 @@
+.imagenAsesorias {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-image: url(../img/s4.jpg);
+    background-size: cover;
+
+    .imagenAsesorias__titulo {
+        font-size: 20px;
+        color: #CB997E;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 15px;
+        border-radius: 5px;
+
+    }
+}
