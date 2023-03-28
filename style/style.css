@@ -123,11 +123,6 @@
   color: #CB997E;
 }
 
-@media screen and (max-width: 950px) {
-  .tarjetas {
-    flex-direction: column;
-  }
-}
 .imagenQuienes {
   height: 50vh;
   display: flex;
@@ -174,4 +169,14 @@
   background-color: rgba(0, 0, 0, 0.6);
   padding: 15px;
   border-radius: 5px;
+}
+
+.mapita {
+  width: 100%;
+}
+
+@media screen and (max-width: 950px) {
+  .tarjetas {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=style.css.map */
