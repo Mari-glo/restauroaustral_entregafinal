@@ -175,6 +175,13 @@
   width: 100%;
 }
 
+.nav__foot a {
+  color: #ffffff;
+}
+.nav__foot a:hover {
+  color: darksalmon;
+}
+
 @media screen and (max-width: 950px) {
   .tarjetas {
     flex-direction: column;
